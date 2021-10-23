@@ -1,0 +1,18 @@
+body {
+	font-family: Roboto, sans-serif;
+	color: var(--primary-text-color);
+	letter-spacing: 0.03em;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.list {
+	list-style-type: none;
+}
+
+.btn {
+	cursor: pointer;
+	border: none;
+}

@@ -1,0 +1,21 @@
+.contacts-list {
+	display: flex;
+	margin-left: auto;
+}
+
+.contacts-item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.icon-envelope,
+.icon-smartphone {
+	margin-right: 10px;
+
+	fill: currentColor;
+}
+
+.contacts-link {
+	display: flex;
+	align-items: center;
+	color: var(--secondary-text-color);
+}

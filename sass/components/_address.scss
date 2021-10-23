@@ -1,0 +1,19 @@
+.first-footer-div {
+	margin-right: 70px;
+}
+
+.footer-item:not(:last-child) {
+	margin-bottom: 9px;
+}
+
+.footer-link {
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	color: var(--footer-link-color);
+	transition: color 250ms var(--cubic);
+}
+
+.footer-first-link {
+	color: var(--just-white-color);
+}

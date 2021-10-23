@@ -1,0 +1,45 @@
+.speciality {
+	padding-top: 0;
+}
+
+.speciality-title {
+	margin-bottom: 50px;
+
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+}
+
+.speciality-list {
+	display: flex;
+}
+.speciality-item {
+	flex-basis: calc((100% - 60px) / 3);
+}
+
+.speciality-item:not(:last-child) {
+	margin-right: 30px;
+}
+
+.speciality-thumb {
+	position: relative;
+}
+
+.speciality-item-title {
+	position: absolute;
+	bottom: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 70px;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: var(--just-white-color);
+	background-color: rgba(47, 48, 58, 0.8);
+}

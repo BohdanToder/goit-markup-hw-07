@@ -1,0 +1,36 @@
+.features-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.features-item {
+	flex-basis: calc((100% - 90px) / 4);
+}
+
+.features-icon-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+
+	width: 270px;
+	height: 120px;
+	border-radius: 4px;
+
+	background-color: var(--features-icon-bgcolor);
+}
+
+.features-item-title {
+	margin-bottom: 10px;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+
+.features-item-text {
+	font-size: 14px;
+	line-height: 1.71;
+	color: var(--secondary-text-color);
+}
