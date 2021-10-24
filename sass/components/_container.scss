@@ -5,3 +5,13 @@
 	padding-right: 15px;
 	padding-left: 15px;
 }
+
+.header__container {
+	display: flex;
+	align-items: center;
+}
+
+.footer__container {
+	display: flex;
+	align-items: baseline;
+}

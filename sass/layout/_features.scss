@@ -1,16 +1,15 @@
-.features-list {
+.features {
 	display: flex;
 	justify-content: space-between;
+	list-style-type: none;
 }
 
-.features-item {
+.features__item {
 	flex-basis: calc((100% - 90px) / 4);
 }
 
-.features-icon-div {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.features__icon {
+	@extend %flex-center;
 	margin-bottom: 30px;
 
 	width: 270px;
@@ -20,7 +19,7 @@
 	background-color: var(--features-icon-bgcolor);
 }
 
-.features-item-title {
+.features__name {
 	margin-bottom: 10px;
 
 	font-weight: 700;
@@ -29,7 +28,7 @@
 	text-transform: uppercase;
 }
 
-.features-item-text {
+.features__text {
 	font-size: 14px;
 	line-height: 1.71;
 	color: var(--secondary-text-color);

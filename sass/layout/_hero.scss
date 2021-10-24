@@ -14,7 +14,7 @@
 	text-align: center;
 }
 
-.hero-title {
+.hero__title {
 	margin-bottom: 30px;
 
 	font-weight: 900;
@@ -26,7 +26,7 @@
 	color: var(--just-white-color);
 }
 
-.hero-button {
+.hero__button {
 	min-width: 200px;
 	padding: 10px 32px;
 	border-radius: 4px;
@@ -38,10 +38,12 @@
 	letter-spacing: 0.06em;
 	color: var(--button-second-text-color);
 	background-color: var(--button-second-bg-color);
+	cursor: pointer;
+	border: none;
 	transition: background-color 250ms var(--cubic);
-}
 
-.hero-button:hover,
-.hero-button:focus {
-	background-color: var(--hero-button-hover-bgcolor);
+	&:hover,
+	&:focus {
+		background-color: var(--hero-button-hover-bgcolor);
+	}
 }

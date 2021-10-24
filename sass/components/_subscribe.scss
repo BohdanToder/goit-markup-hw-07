@@ -1,12 +1,23 @@
-.footer-third-div {
+.footer__subscribe {
 	margin-left: auto;
 }
 
-.subscribe-form {
+.subscribe__name {
+	display: block;
+	margin-bottom: 20px;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: var(--just-white-color);
+}
+
+.subscribe__form {
 	display: flex;
 }
 
-.subscribe-input {
+.subscribe__input {
 	width: 358px;
 	padding: 14px 16px;
 	margin-right: 12px;
@@ -19,19 +30,17 @@
 	background-color: transparent;
 
 	transition: border 250ms var(--cubic), box-shadow 250ms var(--cubic);
+
+	&:hover,
+	&:focus {
+		border: 1px solid #2196f3;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+		outline: none;
+	}
 }
 
-.subscribe-input:hover,
-.subscribe-input:focus {
-	border: 1px solid #2196f3;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	outline: none;
-}
-
-.subscribe-button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.subscribe__button {
+	@extend %flex-center;
 
 	min-width: 200px;
 	padding: 10px;
@@ -42,15 +51,17 @@
 	color: var(--just-white-color);
 	background: #2196f3;
 	border-radius: 4px;
+	cursor: pointer;
+	border: none;
 
 	transition: box-shadow 250ms var(--cubic);
+
+	&:hover,
+	&:focus {
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	}
 }
 
-.send-icon {
+.subscribe__icon {
 	margin-left: 10px;
-}
-
-.subscribe-button:hover,
-.subscribe-button:focus {
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
