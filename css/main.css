@@ -293,7 +293,7 @@ summary {
   --second-font-family: Raleway, sans-serif;
 }
 
-.social-list__link, .join__social-link, .subscribe__button, .modal__close-button, .modal-form__checkbox-label, .modal-form__custom-icon, .modal-form__button, .features__icon, .speciality__name {
+.social-list__link, .join__social-link, .subscribe__button, .modal__close-button, .modal-form__checkbox-label, .modal-form__custom-icon, .modal-form__button, .features__icon, .speciality__name, .client__link, .work-list__description {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -821,7 +821,7 @@ img {
 
 .modal-form__checkbox-input:hover + .modal-form__checkbox-label .modal-form__custom-icon,
 .modal-form__checkbox-input:focus + .modal-form__checkbox-label .modal-form__custom-icon {
-  border: 2px solid #000000;
+  outline: 2px solid #000000;
 }
 
 .modal-form__checkbox-link {
@@ -1036,9 +1036,6 @@ img {
 }
 
 .client__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 170px;
   height: 92px;
   border-radius: 4px;
@@ -1097,9 +1094,6 @@ img {
 .work-list__description {
   position: absolute;
   top: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transform: translateY(100%);
   height: 100%;
   width: 100%;
